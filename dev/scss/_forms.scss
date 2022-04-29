@@ -36,8 +36,8 @@ button,
     background-color: $whiteColor;
   }
   &.secondary {
-    background-color: $secondaryColor;
-    border: 1px solid $secondaryColor;
+    background-color: $greyColor;
+    border: 1px solid $greyColor;
   }
   &.secondary-inverse {
     color: $secondaryColor;
