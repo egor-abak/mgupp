@@ -5,6 +5,7 @@ const comment = require('./comment');
 const upload = require('./upload');
 const contacts = require('./contacts')
 const back_form = require('./back_form')
+const about = require('./about')
 
 module.exports = {
   auth,
@@ -13,5 +14,6 @@ module.exports = {
   comment,
   upload,
   contacts,
-  back_form
+  back_form,
+  about
 };

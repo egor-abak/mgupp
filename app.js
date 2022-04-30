@@ -63,7 +63,7 @@ app.use('/comment', routes.comment);
 app.use('/upload', routes.upload);
 app.use('/contacts', routes.contacts);
 app.use('/back_form', routes.back_form);
-// app.use('/mail', routes.mail);
+app.use('/about', routes.about);
 
 // catch 404 and forward to error handler
 app.use((req, res, next) => {

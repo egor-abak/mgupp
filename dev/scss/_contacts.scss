@@ -1,0 +1,23 @@
+.contacts{
+    background-image: url("../images/contacts.jpg");
+    width: auto;
+    height: 1020px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: top;
+
+    .heading{
+        position: absolute;
+        top: 15%;
+        left: 10%;
+        font-size: 50;
+        font-weight: 600;
+        color: $primaryColor;
+    }
+    .container{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        height: 100%;
+    }
+}
