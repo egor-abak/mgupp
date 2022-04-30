@@ -11,41 +11,38 @@
   opacity: 0.9;
   z-index: 1000;
 
+  .logo {
+    background-image: url("../images/round_logo.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+    // background-color: lightcoral;
+    width: 150px;
+    height: $headerHeight + 50px;
+    margin-top: 3.8%;
+    // margin-left: 30px;
+  }
+
   .container {
     height: 100%;
+    width: 85%;
     justify-content: space-between;
     align-items: center;
+    // background-color: cyan;
     padding: 0 $freeSpace 0 $freeSpace;
-
-    .logo {
-      background-image: url("../images/round_logo.png");
-      background-repeat: no-repeat;
-      background-size: contain;
-      background-position: center;
-      // background-color: lightcoral;
-      width: 120px;
-      height: $headerHeight + 120px;
-      margin-top: 3px;
-    }
-
-    .filler {
-      height: 45%;
-      background-color: $whiteColor;
-      position: bottom;
-    }
 
 
     .infopovod {
       width:300px;
-      height:40px;
+      height:35px;
       border-radius: 12px;
       background-color: $whiteColor;
       // font-family: 'Kantumruy';
       font-style: normal;
       font-weight: 600;
-      font-size: 18px;
+      font-size: 17px;
       text-align: center;
-      line-height: 40px;
+      line-height: 35px;
     }
 
     .menu {
@@ -53,7 +50,8 @@
       list-style: none;
       height: 100%;
       align-items: center;
-      font-size: 15px;
+      font-size: 17px;
+      font-weight: 550;
 
       li {
         a {

@@ -1,12 +1,43 @@
 .footer {
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
+  justify-content: space-evenly;
   height: $footerHeight;
   border-top: 1px solid $whiteColor;
-  background-color: $whiteColor;
+  background-color: $primaryColor;
+ 
+
+  .logo {
+    background-image: url("../images/square_logo.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    // background-color: lightcoral;
+    width: $footerHeight;
+    height: $footerHeight;
+    // margin-left: 30px;
+  }
 
   .container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
     height: 100%;
     line-height: $footerHeight;
+    // background-color: cyan;
+    // margin-left: 8%;
+    // width: 80%;
+
+  .textbox {
+    color: $whiteColor;
+    overflow-wrap: break-word;
+    // background-color: lightcoral;
+    line-height: normal;
+    
+    font-size: 14px;
+    font-weight: 400;
+
   }
+}
+
 }

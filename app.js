@@ -11,6 +11,8 @@ const MongoStore = require('connect-mongo')(session);
 const config = require('./config');
 const routes = require('./routes');
 
+// const contacts = require('./')
+
 // database
 mongoose.Promise = global.Promise;
 mongoose.set('debug', config.IS_PRODUCTION);
@@ -59,7 +61,8 @@ app.use('/api/auth', routes.auth);
 app.use('/post', routes.post);
 app.use('/comment', routes.comment);
 app.use('/upload', routes.upload);
-
+app.use('/contacts', routes.contacts);
+app.use('/back_form', routes.back_form);
 // app.use('/mail', routes.mail);
 
 // catch 404 and forward to error handler
@@ -80,5 +83,5 @@ app.use((error, req, res, next) => {
 });
 
 app.listen(config.PORT, () =>
-  console.log(`Example app listening on port ${config.PORT}!`)
+  console.log(`App listening on port ${config.PORT}!`)
 );

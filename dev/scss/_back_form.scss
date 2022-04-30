@@ -1,0 +1,64 @@
+.back_form {
+
+    .form {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        width: 50%;
+        height: 75%;
+        background-color: $primaryColor;
+        border-radius: 30px;
+        z-index: 800;
+        position: absolute;
+        top: 25%; 
+        left: 20%;
+        align-items: center;
+
+        .submit{
+            background-color: lightcoral;
+            
+        }
+
+        .textbox {
+            // position: absolute;
+            width: 100%;
+            height: 5%;
+            // top: 0px;
+
+            font-style: normal;
+            font-weight: 300;
+            font-size: 40px;
+            line-height: 90px;
+            text-align: center;
+
+            color: #FFFFFF;
+
+            text-shadow: 0px 4px 4px rgba(255, 255, 255, 0.25);
+        }
+
+        .bigfield {
+            background: #DDDDDD;
+            border-radius: 30px;
+            width: 80%;
+            height: 45%;
+        }
+
+        .field {
+            background: #DDDDDD;
+            border-radius: 30px;
+            width: 80%;
+            height: 9%;
+        }
+    }
+    .container{
+        width: auto;
+        height: 800px;
+        background-image: url("../images/back_form.jpg");
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-color: #D8D7D766;
+        background-position: top;
+        opacity: 0.4;
+        
+    }
+}
